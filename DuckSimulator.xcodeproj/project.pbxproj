@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1CA2AFE31BD21BF700BA8C14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFE21BD21BF700BA8C14 /* main.swift */; };
+		1CA2AFEB1BD21C2900BA8C14 /* Quackable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFEA1BD21C2900BA8C14 /* Quackable.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFF01BD21D4500BA8C14 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFEF1BD21D4500BA8C14 /* Duck.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFF21BD2213C00BA8C14 /* Goose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFF11BD2213C00BA8C14 /* Goose.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFF61BD2253C00BA8C14 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFF51BD2253C00BA8C14 /* Adapter.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFF81BD2257F00BA8C14 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFF71BD2257F00BA8C14 /* Counter.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFFA1BD22D2500BA8C14 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFF91BD22D2500BA8C14 /* Factory.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFFC1BD234A700BA8C14 /* Flock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFFB1BD234A700BA8C14 /* Flock.swift */; settings = {ASSET_TAGS = (); }; };
+		1CA2AFFE1BD238F500BA8C14 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2AFFD1BD238F500BA8C14 /* Observer.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		1CA2AFDF1BD21BF700BA8C14 /* DuckSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DuckSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA2AFE21BD21BF700BA8C14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1CA2AFEA1BD21C2900BA8C14 /* Quackable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quackable.swift; sourceTree = "<group>"; };
+		1CA2AFEF1BD21D4500BA8C14 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		1CA2AFF11BD2213C00BA8C14 /* Goose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goose.swift; sourceTree = "<group>"; };
+		1CA2AFF51BD2253C00BA8C14 /* Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		1CA2AFF71BD2257F00BA8C14 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		1CA2AFF91BD22D2500BA8C14 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		1CA2AFFB1BD234A700BA8C14 /* Flock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flock.swift; sourceTree = "<group>"; };
+		1CA2AFFD1BD238F500BA8C14 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				1CA2AFE21BD21BF700BA8C14 /* main.swift */,
+				1CA2AFEF1BD21D4500BA8C14 /* Duck.swift */,
+				1CA2AFF11BD2213C00BA8C14 /* Goose.swift */,
+				1CA2AFFB1BD234A700BA8C14 /* Flock.swift */,
+				1CA2AFF51BD2253C00BA8C14 /* Adapter.swift */,
+				1CA2AFEA1BD21C2900BA8C14 /* Quackable.swift */,
+				1CA2AFF71BD2257F00BA8C14 /* Counter.swift */,
+				1CA2AFF91BD22D2500BA8C14 /* Factory.swift */,
+				1CA2AFFD1BD238F500BA8C14 /* Observer.swift */,
 			);
 			path = DuckSimulator;
 			sourceTree = "<group>";
@@ -119,6 +143,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA2AFE31BD21BF700BA8C14 /* main.swift in Sources */,
+				1CA2AFF61BD2253C00BA8C14 /* Adapter.swift in Sources */,
+				1CA2AFF81BD2257F00BA8C14 /* Counter.swift in Sources */,
+				1CA2AFEB1BD21C2900BA8C14 /* Quackable.swift in Sources */,
+				1CA2AFFE1BD238F500BA8C14 /* Observer.swift in Sources */,
+				1CA2AFF01BD21D4500BA8C14 /* Duck.swift in Sources */,
+				1CA2AFFC1BD234A700BA8C14 /* Flock.swift in Sources */,
+				1CA2AFF21BD2213C00BA8C14 /* Goose.swift in Sources */,
+				1CA2AFFA1BD22D2500BA8C14 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
